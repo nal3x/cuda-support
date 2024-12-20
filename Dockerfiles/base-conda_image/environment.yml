@@ -1,0 +1,18 @@
+name: cuda-python
+channels:
+ - conda-forge
+dependencies:
+ - cudatoolkit=11.4
+ - numpy
+ - numba
+ - black
+ - click
+ - grpcio
+ - grpcio-tools
+ - mypy_extensions
+ - packaging
+ - pathspec
+ - platformdirs
+ - protobuf
+ - tomli
+ - typing_extensions

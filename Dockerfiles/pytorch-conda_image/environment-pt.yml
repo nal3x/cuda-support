@@ -1,0 +1,18 @@
+name: cuda-pytorch
+channels:
+ - conda-forge
+dependencies:
+ - cudatoolkit=11.8
+ - python=3.8
+ - numpy
+ - black
+ - click
+ - grpcio>=1.60
+ - grpcio-tools>=1.60
+ - mypy_extensions
+ - packaging
+ - pathspec
+ - platformdirs
+ - protobuf
+ - tomli
+ - typing_extensions
